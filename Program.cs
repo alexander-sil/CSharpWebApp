@@ -36,7 +36,7 @@ namespace CSharpWebApp
 
             for (int i = 0; i < _httpTasks.Count; i++)
             {
-                File.AppendAllText("text.txt", _httpTasks[i].Result);
+                File.AppendAllText("result.txt", _httpTasks[i].Result);
             }
 
             Console.WriteLine("Исполнение завершено.");
